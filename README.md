@@ -11,7 +11,7 @@ The following tool was made possible by the [nflgame API](http://pdoc.burntsushi
 There is one for every player in their respective position, i.e, quarterbacks, wide receivers, running backs, and tight ends for each week so far of the 2015 NFL regular season. Again *data.txt* has everything pretty straight forward, but let me know of any comments/advice/concerns. 
 
 ## How to use
-If your planning on running the scripts in *use_these.py* yourself, then you'll need the following:
+If you're planning on running the scripts in *use_these.py* yourself, then you'll need the following:
 * [nflgame module](https://github.com/BurntSushi/nflgame)
 * [pandas](http://pandas.pydata.org/getpandas.html)
 * [numpy](http://docs.scipy.org/doc/numpy-1.10.1/user/install.html)
