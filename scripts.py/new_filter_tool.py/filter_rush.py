@@ -1,6 +1,8 @@
+from datetime import datetime
+start_time = datetime.now()
 import nflgame as nf
 
-games = nf.games(2015, week = [9,10,11,12])
+games = nf.games(2015, week = [10,11,12,13])
 players = nf.combine_game_stats(games)
 name_arr = []
 arr = []
@@ -42,3 +44,4 @@ def combine_data(teams):
 teams = ['BAL', 'CAR', 'CHI', 'DEN', 'NE', 'NYJ']
 for i in combine_data(teams):
 	print i
+print datetime.now() - start_time
