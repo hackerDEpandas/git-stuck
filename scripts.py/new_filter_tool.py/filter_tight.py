@@ -2,7 +2,7 @@ from datetime import datetime
 start_time = datetime.now()
 import nflgame as nf
 
-games = nf.games(2015, week = [10,11,12,13])
+games = nf.games(2015, week = [9,10,11,12,13])
 players = nf.combine_game_stats(games)
 name_arr = []
 arr = []
@@ -11,7 +11,7 @@ tuples = []
 ###########################################################################
 def receiver_gen(team):
 	for p in players.receiving().filter(receiving_rec_gte = 0).sort('receiving_rec'):
-		if (str(p.guess_position) == 'WR' or str(p.guess_position) == 'TE') and str(p.team) == team:
+		if str(p.guess_position) == 'TE' and str(p.team) == team:
 			name_arr.append(str(p.name))
 	return name_arr
 ##########################################################################
@@ -39,7 +39,7 @@ def combine_data(teams):
 	return arr
 ##########################################################################
 
-teams = ['PIT', 'KC', 'JAC', 'IND']
+teams = ['IND', 'KC', 'STL', 'TB']
 count = 0
 for i in combine_data(teams):
 	count += 1
