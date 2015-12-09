@@ -3,12 +3,22 @@ A tool to help make more informed NFL fantasy picks.
 
 The following tool was made possible by the [nflgame API](http://pdoc.burntsushi.net/nflgame) given by the github user [BurntSushi](https://github.com/BurntSushi). 
 
-*use_these.py* collects relevant player data (relevant as in, data points that give you points on fanduel) and exports it to a text file. Any text file, as shown in *data.txt*, has a number of tuples per file. Each space seperated tuple is of the following form...
+*use_these.py* collects relevant player data (relevant as in, data points that give you points on fanduel) and exports them to a text file. Text files in the folders *quarter_backs*, *runing_backs*, and *wide_receivers_tight_ends*, have a number of tuples per file. Each space seperated tuple is of the following form...
 ```
-'Player Name' 'Player Team' 'Player Pos.' Player FanDuel Pts
+'Player Name' 'Player Team' 'Player Pos.' 'Player FanDuel Pts.'
 ```
 ...where the Player Name/Team/Pos. are strings and Player Fanduel Pts is a float.
-There is one for every player in their respective position, i.e, quarterbacks, wide receivers, running backs, and tight ends for each week so far of the 2015 NFL regular season. Again *data.txt* has everything pretty straight forward, but let me know of any comments/advice/concerns. 
+There is one for every player in their respective position, i.e, quarterbacks, wide receivers, running backs, and tight ends for each week so far of the 2015 NFL regular season. 
+
+*new_filter_tool.py* gives you the best players as far as matchups go for the current NFL week. Scroll down to **new_filter_tool.py** to get more information of how I'm finding the best matchups. Similar to *quarter_backs*, *runing_backs*, and *wide_receivers_tight_ends* in *data.txt*, the text files in *picks_(current NFL week)* return tuples. For *running_back_picks_(current NFL week)*, *tight_end_picks_(current NFL week)*, and *wide_receiver_picks_(current NFL week)* the tuples are of the following form..
+```
+'Player Name' 'Player Team' 'Player Pos.' 'Player Rec' 'Player RecYds' 'Player RecTds' 'Player RuYds' 'Player RuTds' 'Player FumLost' 'Player FanDuel Pts'
+```
+...where Player Name/Team/POS. are strings, Player Rec/RecYds/RecTds/RuYds/RuTds/FumLost are integers, and player FanDuel Pts is a float. For *quarter_back_picks_(current NFL week)* the tuples are of the following form...
+```
+'Player Name' 'Player Team' 'Player Pos.' 'Player PassYds' 'Player PassTds' 'Player RuYds' 'Player RuTds' 'Player PassInts' 'Player FumLost' 'Player FanDuel Pts'
+```
+...where Player Name/Team/POS. are strings, Player PassYds/PassTds/RuYds/RuTds/PassInts/FumLost are integers, and player FanDuel Pts is a float. Again *data.txt* has everything pretty straight forward, but let me know of any comments/advice/concerns. 
 
 ## use_these.py
 If you're planning on running the scripts in *use_these.py* yourself, then you'll need the following:
