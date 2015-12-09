@@ -12,13 +12,13 @@ There is one for every player in their respective position, i.e, quarterbacks, w
 
 *new_filter_tool.py* gives you the best players as far as matchups go for the current NFL week. Scroll down to **new_filter_tool.py** to get more information on how I'm finding the best matchups. Similar to *quarter_backs*, *runing_backs*, and *wide_receivers_tight_ends* in *data.txt*, the text files in *picks_(current NFL week)* return tuples. For *running_back_picks_(current NFL week)*, *tight_end_picks_(current NFL week)*, and *wide_receiver_picks_(current NFL week)* the tuples are of the following form..
 ```
-'Player Name' 'Player Team' 'Player Pos.' 'Player Rec' 'Player RecYds' 'Player RecTds' 'Player RuYds' 'Player RuTds' 'Player FumLost' 'Player FanDuel Pts'
+'Player Name' 'Player Team' 'Player Pos.' 'Player Rec'L 'Player RecYds'L 'Player RecTds'L 'Player RuYds'L 'Player RuTds'L 'Player FumLost'L 'Player FanDuel Pts'
 ```
-...where Player Name/Team/Pos are strings, Player Rec/RecYds/RecTds/RuYds/RuTds/FumLost are integers, and player FanDuel Pts is a float. For *quarter_back_picks_(current NFL week)* the tuples are of the following form...
+...where Player Name/Team/Pos are strings, Player Rec/RecYds/RecTds/RuYds/RuTds/FumLost are integers, and player FanDuel Pts is a float. Go ahead and ignore the 'L' next to all the integers, this is a result of the DataFrame being saved as a text file and has no meaning other than **Pandas** seperating the values. For *quarter_back_picks_(current NFL week)* the tuples are of the following form...
 ```
-'Player Name' 'Player Team' 'Player Pos.' 'Player PassYds' 'Player PassTds' 'Player RuYds' 'Player RuTds' 'Player PassInts' 'Player FumLost' 'Player FanDuel Pts'
+'Player Name' 'Player Team' 'Player Pos.' 'Player PassYds'L 'Player PassTds'L 'Player RuYds'L 'Player RuTds'L 'Player PassInts'L 'Player FumLost'L 'Player FanDuel Pts'
 ```
-...where Player Name/Team/Pos are strings, Player PassYds/PassTds/RuYds/RuTds/PassInts/FumLost are integers, and player FanDuel Pts is a float. Again *data.txt* has everything pretty straight forward, but let me know of any comments/advice/concerns. 
+...where Player Name/Team/Pos are strings, Player PassYds/PassTds/RuYds/RuTds/PassInts/FumLost are integers, and player FanDuel Pts is a float. Again ignore the 'L'. *data.txt* has everything pretty straight forward, but let me know of any comments/advice/concerns. 
 
 ## use_these.py
 If you're planning on running the scripts in *use_these.py* yourself, then you'll need the following:
