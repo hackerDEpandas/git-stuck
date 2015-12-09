@@ -1,0 +1,8 @@
+'T.Taylor' 'BUF' 'QB' 1074L 8L 131L 1L 0L 1L 92.06
+'A.Dalton' 'CIN' 'QB' 1199L 10L 84L 1L 2L 1L 98.36
+'A.McCarron' 'CIN' 'QB' 22L 0L -2L 0L 0L 0L 0.68
+'M.Hasselbeck' 'IND' 'QB' 697L 5L 6L 0L 4L 1L 42.48
+'A.Luck' 'IND' 'QB' 252L 2L 34L 0L 0L 0L 21.48
+'C.Whitehurst' 'IND' 'QB' 51L 0L 0L 0L 0L 0L 2.04
+'J.Winston' 'TB' 'QB' 1231L 7L 66L 3L 4L 0L 97.84
+'R.Fitzpatrick' 'NYJ' 'QB' 1348L 11L 85L 1L 4L 0L 108.42

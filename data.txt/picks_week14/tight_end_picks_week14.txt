@@ -1,0 +1,12 @@
+'C.Fleener' 'IND' 'TE' 14L 114L 0L 0L 0L 0L 18.4
+'D.Allen' 'IND' 'TE' 4L 32L 0L 0L 0L 0L 5.2
+'J.Doyle' 'IND' 'TE' 3L 23L 1L 0L 0L 0L 9.8
+'T.Kelce' 'KC' 'TE' 16L 193L 1L 0L 0L 1L 31.3
+'D.Harris' 'KC' 'TE' 2L 26L 0L 0L 0L 0L 3.6
+'B.Parker' 'KC' 'TE' 1L 6L 0L 0L 0L 0L 1.1
+'J.Cook' 'STL' 'TE' 14L 156L 0L 0L 0L 0L 22.6
+'L.Kendricks' 'STL' 'TE' 8L 89L 1L 0L 0L 0L 18.9
+'C.Harkey' 'STL' 'TE' 2L 6L 0L 0L 0L 0L 1.6
+'B.Myers' 'TB' 'TE' 3L 35L 0L 0L 0L 0L 5.0
+'A.Seferian-Jenkins' 'TB' 'TE' 3L 31L 0L 0L 0L 0L 4.6
+'L.Stocker' 'TB' 'TE' 1L 4L 0L 0L 0L 0L 0.9
