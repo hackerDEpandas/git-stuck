@@ -1,12 +1,15 @@
 from datetime import datetime
 start_time = datetime.now()
 import nflgame as nf
+import pandas as pd
+import numpy as np
 
-games = nf.games(2015, week = [9,10,11,12,13])
+games = nf.games(2015, week = [13,14,15,16,17])
 players = nf.combine_game_stats(games)
 name_arr = []
 arr = []
 tuples = []
+quarter_backs = []
 
 ###########################################################################
 def passer_gen(team):
@@ -37,8 +40,13 @@ def combine_data(teams):
 		arr.append(j)
 	return arr
 ##########################################################################
+teams = ['DET', 'GB', 'NYG', 'NYJ', 'BUF', 'HOU', 'MIA', 'BAL', 'CLE', 'CIN', 'TEN', 'JAC', 'CHI', 'SF', 'MIN', 'SEA', 'NO', 'CAR', 'TB', 'ATL', 'STL', 'ARI', 'OAK', 'KC', 'SD', 'DEN', 'NE', 'PHI', 'PIT', 'IND', 'WAS', 'DAL']
+#['DET', 'CHI', 'SEA', 'CAR', 'ATL', 'ARI', 'SD', 'DEN', 'NE', 'TB']
 
-teams = ['BUF', 'CIN', 'IND', 'TB', 'NYJ']
 for i in combine_data(teams):
-	print i
+	quarter_backs.append({'A_Name':i[0], 'B_Team':i[1], 'C_Pos':i[2], 'D_Pass_Yds':i[3], 'E_Pass_Tds':i[4], 'F_Rush_Yds':i[5], 'G_Rush_Tds':i[6], 'H_Pass_Ints':i[7], 'I_Fum_Lost':i[8], 'J_FD_PTS':i[9]})
+
+picks = pd.DataFrame(quarter_backs)
+np.savetxt('quarter_backs_5_week_trend.txt', picks.sort(columns = 'J_FD_PTS', ascending = False), fmt='%r')
+
 print datetime.now() - start_time

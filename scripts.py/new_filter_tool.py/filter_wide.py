@@ -1,19 +1,22 @@
 from datetime import datetime
 start_time = datetime.now()
 import nflgame as nf
+import pandas as pd
+import numpy as np
 
-games = nf.games(2015, week = [9,10,11,12,13])
+games = nf.games_gen(2015, week = 1, kind = 'POST')
 players = nf.combine_game_stats(games)
 name_arr = []
 arr = []
 tuples = []
+wide_receivers = []
 
 ###########################################################################
 def receiver_gen(team):
 	for p in players.receiving().filter(receiving_rec_gte = 0).sort('receiving_rec'):
-		if str(p.guess_position) == 'WR' and str(p.team) == team:
+		if (str(p.guess_position) == 'WR' or str(p.guess_position) == '') and str(p.team) == team:
 			name_arr.append(str(p.name))
-	return name_arr
+	return list(set(name_arr))
 ##########################################################################
 def receiving_stats(player, team):
 	for i in player:
@@ -38,10 +41,13 @@ def combine_data(teams):
 		arr.append(j)
 	return arr
 ##########################################################################
+teams = ['DET', 'GB', 'NYG', 'NYJ', 'BUF', 'HOU', 'MIA', 'BAL', 'CLE', 'CIN', 'TEN', 'JAC', 'CHI', 'SF', 'MIN', 'SEA', 'NO', 'CAR', 'TB', 'ATL', 'STL', 'ARI', 'OAK', 'KC', 'SD', 'DEN', 'NE', 'PHI', 'PIT', 'IND', 'WAS', 'DAL']
+#['ARI', 'BUF', 'CAR', 'CHI', 'DEN', 'HOU', 'KC', 'NE', 'SD', 'SEA', 'SF', 'STL', 'WAS']
 
-teams = ['BUF', 'MIA', 'CIN', 'JAC', 'SF', 'NYJ','TEN']
-count = 0
 for i in combine_data(teams):
-	count += 1
-	print i
+	wide_receivers.append({'A_Name':i[0], 'B_Team':i[1], 'C_Pos':i[2], 'D_Rec':i[3], 'E_Rec_Yds':i[4], 'F_Rec_Tds':i[5], 'G_Rush_Yds':i[6], 'H_Rush_Tds':i[7], 'I_Fum_Lost':i[8], 'J_FD_PTS':i[9]})
+
+picks = pd.DataFrame(wide_receivers)
+np.savetxt('wide_receivers_5_week_trend.txt', picks.sort(columns = 'J_FD_PTS', ascending = False), fmt='%r')
+
 print  datetime.now() - start_time
