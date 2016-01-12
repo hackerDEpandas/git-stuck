@@ -1,0 +1,10 @@
+'J.Reed' 'WAS' 'TE' 9L 120L 1L 0L 0L 0L 22.5
+'T.Kelce' 'KC' 'TE' 8L 128L 0L 0L 0L 0L 16.8
+'T.Eifert' 'CIN' 'TE' 5L 58L 0L 0L 0L 0L 8.3
+'R.Griffin' 'HOU' 'TE' 3L 29L 0L 0L 0L 0L 4.4
+'M.Pruitt' 'MIN' 'TE' 2L 22L 0L 0L 0L 0L 3.2
+'K.Rudolph' 'MIN' 'TE' 1L 24L 0L 0L 0L 0L 2.9
+'R.Rodgers' 'GB' 'TE' 2L 11L 0L 0L 0L 0L 2.1
+'A.Smith' 'WAS' 'TE' 1L 16L 0L 0L 0L 0L 2.1
+'H.Miller' 'PIT' 'TE' 2L 9L 0L 0L 0L 0L 1.9
+'C.Fiedorowicz' 'HOU' 'TE' 1L 1L 0L 0L 0L 0L 0.6

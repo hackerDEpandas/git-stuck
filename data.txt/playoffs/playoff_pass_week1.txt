@@ -1,0 +1,9 @@
+'K.Cousins' 'WAS' 'QB' 329L 1L 2L 1L 0L 1L 21.36
+'A.Rodgers' 'GB' 'QB' 210L 2L -1L 0L 0L 0L 16.3
+'A.Smith' 'KC' 'QB' 190L 1L 27L 0L 1L 0L 13.3
+'B.Roethlisberger' 'PIT' 'QB' 229L 1L 0L 0L 0L 0L 13.16
+'R.Wilson' 'SEA' 'QB' 142L 1L 21L 0L 1L 0L 10.78
+'A.McCarron' 'CIN' 'QB' 212L 1L 9L 0L 1L 1L 10.38
+'T.Bridgewater' 'MIN' 'QB' 146L 0L 0L 0L 0L 0L 5.84
+'L.Jones' 'PIT' 'QB' 11L 0L 0L 0L 1L 0L -0.56
+'B.Hoyer' 'HOU' 'QB' 136L 0L -1L 0L 4L 1L -0.66
