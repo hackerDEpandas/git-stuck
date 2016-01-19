@@ -1,0 +1,13 @@
+'R.Gronkowski' 'NE' 'TE' 7L 83L 2L 0L 0L 0L 23.8
+'G.Olsen' 'CAR' 'TE' 6L 77L 1L 0L 0L 0L 16.7
+'L.Willson' 'SEA' 'TE' 4L 54L 0L 0L 0L 0L 7.4
+'R.Rodgers' 'GB' 'TE' 5L 45L 0L 0L 0L 0L 7.0
+'T.Kelce' 'KC' 'TE' 6L 23L 0L 0L 0L 0L 5.3
+'E.Dickson' 'CAR' 'TE' 2L 22L 0L 0L 0L 0L 3.2
+'J.James' 'PIT' 'TE' 1L 22L 0L 0L 0L 0L 2.7
+'D.Fells' 'ARI' 'TE' 2L 14L 0L 0L 0L 0L 2.4
+'V.Green' 'DEN' 'TE' 2L 14L 0L 0L 0L 0L 2.4
+'O.Daniels' 'DEN' 'TE' 2L 10L 0L 0L 0L 0L 2.0
+'D.Harris' 'KC' 'TE' 1L 10L 0L 0L 0L 0L 1.5
+'H.Miller' 'PIT' 'TE' 1L 5L 0L 0L 0L 0L 1.0
+'M.Spaeth' 'PIT' 'TE' 1L 1L 0L 0L 0L 0L 0.6

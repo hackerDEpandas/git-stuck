@@ -1,0 +1,8 @@
+'R.Wilson' 'SEA' 'QB' 366L 3L 32L 0L 2L 0L 27.84
+'T.Brady' 'NE' 'QB' 302L 2L 6L 1L 0L 0L 26.68
+'C.Palmer' 'ARI' 'QB' 349L 3L 0L 0L 2L 0L 23.96
+'A.Rodgers' 'GB' 'QB' 261L 2L 21L 0L 1L 0L 19.54
+'A.Smith' 'KC' 'QB' 246L 1L 44L 0L 0L 0L 18.24
+'B.Roethlisberger' 'PIT' 'QB' 339L 0L 0L 0L 0L 0L 13.56
+'C.Newton' 'CAR' 'QB' 161L 1L 3L 0L 0L 0L 10.74
+'P.Manning' 'DEN' 'QB' 222L 0L -1L 0L 0L 0L 8.78
