@@ -1,0 +1,9 @@
+'D.Johnson' 'ARI' 'RB' 9L 68L 0L 60L 1L 0L 23.3
+'C.Anderson' 'DEN' 'RB' 3L 18L 0L 72L 0L 0L 10.5
+'J.Stewart' 'CAR' 'RB' 2L 5L 0L 83L 0L 0L 9.8
+'J.White' 'NE' 'RB' 5L 45L 0L 11L 0L 0L 8.1
+'S.Jackson' 'NE' 'RB' 0L 0L 0L 8L 1L 0L 6.8
+'B.Bolden' 'NE' 'RB' 2L 29L 0L 12L 0L 0L 5.1
+'R.Hillman' 'DEN' 'RB' 1L 7L 0L 16L 0L 0L 2.8
+'A.Ellington' 'ARI' 'RB' 0L 0L 0L 0L 0L 0L 0.0
+'F.Whittaker' 'CAR' 'RB' 0L 0L 0L -2L 0L 0L -0.2

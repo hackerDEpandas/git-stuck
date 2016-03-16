@@ -1,0 +1,4 @@
+'C.Newton' 'CAR' 'QB' 335L 2L 47L 2L 1L 0L 37.1
+'T.Brady' 'NE' 'QB' 310L 1L 13L 0L 2L 0L 15.7
+'P.Manning' 'DEN' 'QB' 176L 2L 11L 0L 0L 1L 14.14
+'C.Palmer' 'ARI' 'QB' 235L 1L 0L 0L 4L 2L 5.4

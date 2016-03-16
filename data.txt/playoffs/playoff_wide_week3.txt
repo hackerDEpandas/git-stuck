@@ -1,0 +1,16 @@
+'C.Brown' 'CAR' 'WR' 4L 113L 1L 0L 0L 0L 19.3
+'T.Ginn' 'CAR' 'WR' 2L 52L 0L 22L 1L 0L 14.4
+'D.Funchess' 'CAR' 'WR' 2L 21L 1L 0L 0L 0L 9.1
+'J.Edelman' 'NE' 'WR' 7L 53L 0L 0L 0L 0L 8.8
+'E.Sanders' 'DEN' 'WR' 5L 62L 0L 0L 0L 0L 8.7
+'D.Amendola' 'NE' 'WR' 5L 39L 0L 0L 0L 0L 6.4
+'M.Floyd' 'ARI' 'WR' 3L 37L 0L 0L 0L 0L 5.2
+'L.Fitzgerald' 'ARI' 'WR' 4L 30L 0L 0L 0L 0L 5.0
+'J.Nelson' 'ARI' 'WR' 2L 25L 0L 0L 0L 0L 3.5
+'Jo.Brown' 'ARI' 'WR' 2L 23L 0L 0L 0L 0L 3.3
+'J.Cotchery' 'CAR' 'WR' 2L 17L 0L 0L 0L 0L 2.7
+'J.Norwood' 'DEN' 'WR' 2L 16L 0L 0L 0L 0L 2.6
+'D.Thomas' 'DEN' 'WR' 2L 12L 0L 0L 0L 0L 2.2
+'Ja.Brown' 'ARI' 'WR' 1L 16L 0L 0L 0L 0L 2.1
+'A.Caldwell' 'DEN' 'WR' 1L 15L 0L 0L 0L 0L 2.0
+'C.Latimer' 'DEN' 'WR' 1L 13L 0L 0L 0L 0L 1.8

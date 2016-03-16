@@ -1,0 +1,4 @@
+'R.Gronkowski' 'NE' 'TE' 8L 144L 1L 0L 0L 0L 24.4
+'O.Daniels' 'DEN' 'TE' 2L 33L 2L 0L 0L 0L 16.3
+'G.Olsen' 'CAR' 'TE' 6L 113L 0L 0L 0L 0L 14.3
+'D.Fells' 'ARI' 'TE' 2L 36L 1L 0L 0L 0L 10.6
