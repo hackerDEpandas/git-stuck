@@ -1,4 +1,4 @@
-# git-stuck
+# NFL GAME DATA SCRAPE
 A tool to help collect NFL player data.
 
 The following tool was made possible by the [nflgame API](http://pdoc.burntsushi.net/nflgame) given by the github user [BurntSushi](https://github.com/BurntSushi). 
